@@ -1,0 +1,166 @@
+/*******************************TAG SELECTORS****************************/
+body{
+  background-color: #faf4ff;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+
+}
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-size: 1.2rem;
+}
+
+a{
+  color:#11999E;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-top-width: thick;
+  border-color: #235952;
+  border-spacing: 40px;
+  width: 25%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+/*******************************CLASS SELECTORS****************************/
+
+.top-container{
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position:relative;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  bottom: 300px;
+  left: 250px;
+  position: absolute;
+}
+
+.subjects{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.experience{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link{
+  padding-top:50px;
+  top: 20px;
+}
+
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+.contact-sentence{
+  width:40%;
+  margin: 40px auto;
+
+}
+
+.button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99) );
+	background:-moz-linear-gradient( center top, #599bb3 5%, #408c99 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99');
+	background-color:#599bb3;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Baloo Thambi 2', cursive;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #3d768a;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3) );
+	background:-moz-linear-gradient( center top, #408c99 5%, #599bb3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3');
+	background-color:#408c99;
+}.button:active {
+	position:relative;
+	top:1px;
+}
